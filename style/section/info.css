@@ -1,0 +1,131 @@
+.info{
+    margin-top: 550px;
+    width: 100vw;
+    padding: 150px 0 150px 0;
+}
+
+
+
+ .info__main-information{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info__contant{
+    display: flex;
+    gap: 325px;
+    margin-left: 5%;
+}
+
+.info__img-contant{
+    background:url(../../img/info/Photo.png);
+    width: 500px;
+    height: 576px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.info__img-contant::before{
+    content: "";
+    position: absolute;
+    z-index: 5;
+    background: url(../../img/info/Phototelka.jpg);
+    width: 500px;
+    height: 576px;
+    flex-shrink: 0;
+    transform: translate(-50px);
+    top: 50px;
+
+}
+
+.info__link{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info__title{
+    max-width: 435px;
+    text-align: start;
+}
+
+
+.info__text{
+    max-width: 529px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 165%; /* 29.7px */
+}
+
+.info__list{
+    display: flex;
+    gap: 10px;
+    margin-top: 21px;
+}
+
+
+.info__service-btn{
+    padding: 21px 11px;
+    display: flex;
+    width: 165px;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #1E2C30;
+    background: #FFF;
+    height: 180px;
+}
+.info__service-btn-title{
+    margin-top: 14px;
+    color: #141414;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 26.4px */
+    width: 99px;
+}
+
+.about__info{
+    margin-top: 130px;
+}
+
+.about__info__contant{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.about__info-list{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.about__info-item{
+    border: 1px solid rgba(211, 211, 211, 1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 36px;
+    display: flex;
+    gap: 32px;
+}
+
+.about__info-block >.title{
+    font-size: 22px;
+}
+
+.about__info-block > .info__text{
+    max-width: 423px;
+}
+
+.about__info-title{
+    font-size: 18px;
+    font-style: italic;
+}
+
+.about__info-title-link{
+    display: flex;
+    justify-content: center;
+}

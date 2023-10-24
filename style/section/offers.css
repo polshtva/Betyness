@@ -1,0 +1,148 @@
+.offers{
+    margin-top: 146px;
+    position: relative;
+}
+
+.offers__contant{
+    display: flex;
+    gap: 127px;
+    flex-wrap: wrap;
+    margin-top: -100px;
+}
+
+.offers__title-link{
+    display: flex;
+    justify-content: center;
+}
+
+.offers__block-top, .offers__block-bottom{
+    display: flex;
+    gap: 69px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+}
+
+.offers__title{
+    max-width: 659px;
+}
+
+.offers__contant{
+    margin-top: 50px;
+    transform: translateX(10%);
+}
+
+.offers__item-title{
+    color: #141414;
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; 
+}
+
+.offers__item-price{
+    color: #141414;
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1.1px;
+}
+.offers__item-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 165%; /* 29.7px */
+    letter-spacing: 0.36px;
+    margin-bottom: 22px;
+}
+
+.offers__item{
+    border: 1px solid #9BB7BF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 18px;
+}
+
+.offers__item:last-child{
+    border: none;
+}
+
+.offers__block-bottom > .offers__list{
+    margin-top: 72px;
+    margin-left: -75px;
+    margin-right: 40px;
+}
+
+.offers__block-bottom{
+    transform: translate(114px, -208px);
+}
+
+.offers__block{
+    width: 150px;
+    height: 150px;
+    background-image: url(../../img/hero/Background.png);
+    position: absolute;
+    z-index: -2;
+    top: 37%;
+    left: 35%;
+    flex-shrink: 0;
+}
+
+.point{
+    display: inline-block;
+    width: 235px;
+    height: 29px;
+    border: 2px dotted #555;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.offers__list-transform{
+    transform: translate(35px, -11px);
+}
+
+.offers__block-top_second{
+    transform: translate(40px, -395px);
+}
+
+.offers__block-top_second > .offers__list,
+.offers__block-top_third > .offers__list
+{
+    transform: translate(82px, 72px);
+}
+
+.offers__block-bottom_second{
+    transform: translate(155px, -524px);
+}
+
+.offers__block-bottom_second > .offers__list{
+    transform: translateX(-38px);
+}
+
+.offers__block-top_third{
+    transform: translate(39px, -651px);
+}
+
+.service-offers{
+    margin-bottom: -666px;
+}
+
+.offers__block_one{
+    transform: translateY(-843px);
+}
+
+.offers__block_two{
+    transform: translateY(430px);
+}
+
+.offers__block_third{
+    width: 75px;
+    height: 75px;
+    transform: translate(76px, 1710px);
+}

@@ -1,0 +1,65 @@
+.about-women{
+    margin-top: 129px;
+}
+
+.about-women__list{
+    margin-top: 33px;
+    display: flex;
+    gap:45px;
+    justify-content: center;
+}
+
+.about-women__item{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+.about-women__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.about-women__title-link{
+    display: flex;
+    justify-content: center;
+}
+.about-women__info-title{
+    color: #141414;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
+}
+
+.about-women__info-title-link{
+    color: #5C8692;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 154.5%; /* 23.175px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.about-women__info-text{
+    margin-top: 8px;
+    max-width: 302px;
+    color: #555;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+}
+
+.connection__list{
+    display: flex;
+    gap:30px;
+}

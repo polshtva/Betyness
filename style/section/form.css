@@ -1,0 +1,257 @@
+.forms{
+    padding: 132px 0 131px;
+    margin-top: 161px;
+}
+
+.forms__contant{
+    display: flex;
+    gap: 115px;
+    flex-wrap: wrap;
+    transform: translateX(194px);
+}
+
+.forms__discount-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    padding: 66px 75px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px rgba(42, 68, 75, 0.13);
+}
+
+.form__value{
+    position: relative;
+}
+.form__input{
+    width: 400px;
+    height: 65px;
+    flex-shrink: 0;
+    border: 1px solid #5C8692;
+    background: #FFF;
+    color: #555;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    padding-left: 54px ;
+}
+.form__icon{
+    position: absolute;
+    z-index: 2;
+    top: 21px;
+    left: 15px;
+}
+
+.form__comment{
+    width: 399px;
+    height: 136px;
+    flex-shrink: 0;
+    border: 1px solid #5C8692;
+    background: #FFF;
+    color: #555;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    padding-left: 54px ;
+    padding-top: 16px;
+}
+
+.form__btn{
+    padding: 23px 107px;
+    color: #FFF;
+}
+
+.forms__title-link{
+    display: flex;
+    justify-content: start;
+}
+.forms__title-name{
+    text-align: start;
+    display: flex;
+    justify-content: start;
+    width: 435px;
+    transform: translateX(-53px);
+}
+
+.forms__discount-info{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.forms__name{
+    margin-top: -5px;
+}
+.forms__text{
+    max-width: 534px;
+}
+.forms__info{
+    display: flex;
+    flex-direction: column;
+    gap:37px;
+}
+
+.forms__discount{
+    display: flex;
+}
+
+.forms__discount-block{
+    display: inline-flex;
+    padding: 18px 40px 19px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.forms__block{
+    display: flex;
+    gap: 19px;
+}
+
+.forms__block-value{
+    color: #141414;
+    font-family: Manrope;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+}
+
+.forms__block-title{
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+}
+
+.forms__block-text{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.forms__time-discount{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 12px 34px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    background: #1E2C30;
+}
+
+.forms__time-discount{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 175%; /* 26.25px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.forms__discount-num{
+    font-size: 70px;
+
+}
+
+.forms__procent{
+    font-size: 45px;
+}
+
+.service-forms__contant{
+    display: flex;
+    justify-content: center;
+}
+
+.service-forms__title-name{
+    text-align: center;
+    width: 626px;
+}
+
+.service-forms__title-link{
+    display: flex;
+    justify-content: center;
+    transform: translateX(-50px);
+}
+
+.service-forms__text{
+    text-align: center;
+    max-width: 644px;
+    display: flex;
+    transform: translateX(-50px);
+}
+
+.service-forms__discount{
+    transform: translateX(50px);
+}
+
+.service-forms__contant{
+    transform: translateX(10px);
+}
+
+.form-contact{
+    margin-top: 118px;
+}
+
+.form-contact{
+    margin-top: 118px;
+    padding: 120px 0;
+}
+
+.form-contact__contant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-contact__title-link{
+   display: flex;
+   justify-content: center; 
+}
+
+.form-contact__text{
+    width: 622px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.form-contact__form{
+    margin-top: 65px;
+    display: flex;
+    width: 1010px;
+    padding: 98px 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-contact__form input{
+    width: 810px;
+    height: 65px;
+    flex-shrink: 0;
+}
+
+.form-contact__form textarea{
+    width: 810px;
+    height: 123px;
+    flex-shrink: 0;
+}
+
+.form-contact__btn{
+    width: 810px;
+    flex-shrink: 0;
+}

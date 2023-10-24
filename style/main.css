@@ -1,0 +1,20 @@
+@import url(./section/comment.css);
+@import url(./section/head.css);
+@import url(./section/basic.css);
+@import url(./section/hero.css);
+@import url(./section/service.css);
+@import url(./section/info.css);
+@import url(./section/offers.css);
+@import url(./section/advantages.css);
+@import url(./section/form.css);
+@import url(./section/news.css);
+@import url(./section/footer.css);
+@import url(./section/about-style.css);
+@import url(./section/about-women.css);
+@import url(./section/about-adver.css);
+@import url(./section/info-address.css);
+
+    *{
+        margin: 0;
+        padding: 0;
+    }

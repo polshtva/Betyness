@@ -1,0 +1,117 @@
+.header{
+   
+}
+.container{
+    max-width:  1609.89px;
+    margin: 0 auto;
+}
+.header__contant {
+    display: flex;
+    gap: 23%;
+}
+
+.header__info{
+    display: flex;
+    column-gap: 46px;
+}
+
+
+.logo, .phone{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+.logo__img {
+}
+.logo__title {
+    color: #141414;
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 35px */
+}
+
+.phone__img {
+    width: 20.888px;
+    height: 20.928px;
+    flex-shrink: 0;
+}
+.phone__number {
+    color: #141414;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 22.5px */
+    letter-spacing: -0.18px;
+    width: 232px;
+}
+.nuv__link_arrow{
+    width: 61px;
+    display: flex;
+    gap: 3px;
+}
+.nuv__link_arrow::after{
+    content: "";
+    display: inline-flex;
+    margin-top: 2px;
+    border: 3px solid black;
+    width: 15px;
+    height: 8px;
+    border-top: none;
+    border-right: none;
+    transform: rotate(312deg);
+    margin-left: 5px;
+}
+.nuv {
+
+}
+.nuv__item {
+    display: flex;
+    gap: 32px;
+    margin-top: 25px;
+}
+.nuv__link, .nuv__link > a{
+    color: #555;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 22.5px */
+    
+}
+
+.nuv__link:hover, .nuv__link>a:hover{
+    color: #7A9CA5;
+
+}
+.nuv__icon {
+}
+.btn {
+    display: flex;
+    padding: 10px 25px;
+    justify-content: center;
+    align-items: center;
+    background: #7A9CA5;
+    gap: 10px;
+    border: none;
+    margin-top: -7px;
+}
+.btn__icon {
+}
+.btn__title {
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 17.5px */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+
